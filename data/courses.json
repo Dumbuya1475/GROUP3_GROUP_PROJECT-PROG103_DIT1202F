@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "code": "PROG103",
+    "title": "Principles of Structured Programming",
+    "credit_hours": 4,
+    "lecturer_id": 2,
+    "capacity": 40,
+    "created_at": "2026-03-01 09:00"
+  },
+  {
+    "id": 2,
+    "code": "DBMS102",
+    "title": "Database Management Systems",
+    "credit_hours": 3,
+    "lecturer_id": 2,
+    "capacity": 35,
+    "created_at": "2026-03-01 09:00"
+  },
+  {
+    "id": 3,
+    "code": "MATH101",
+    "title": "Computerized Mathematics",
+    "credit_hours": 3,
+    "lecturer_id": 3,
+    "capacity": 45,
+    "created_at": "2026-03-01 09:00"
+  },
+  {
+    "id": 4,
+    "code": "COMM104",
+    "title": "Data Communication",
+    "credit_hours": 3,
+    "lecturer_id": 3,
+    "capacity": 30,
+    "created_at": "2026-03-01 09:00"
+  }
+]

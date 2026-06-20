@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "full_name": "Mr. Elijah Fullah",
+    "email": "admin@limkokwing.edu.sl",
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "role": "admin",
+    "student_id": "",
+    "created_at": "2026-03-01 09:00"
+  },
+  {
+    "id": 2,
+    "full_name": "Dr. Sheik Umar Kanu",
+    "email": "lecturer@limkokwing.edu.sl",
+    "password": "a4c3fcb625ccf255765afd5e3548839e8a2de6c587d7125dfba735dda69dbe22",
+    "role": "lecturer",
+    "student_id": "",
+    "created_at": "2026-03-01 09:00"
+  },
+  {
+    "id": 3,
+    "full_name": "Ms. Sarah Kelly",
+    "email": "skelly@limkokwing.edu.sl",
+    "password": "a4c3fcb625ccf255765afd5e3548839e8a2de6c587d7125dfba735dda69dbe22",
+    "role": "lecturer",
+    "student_id": "",
+    "created_at": "2026-03-02 09:00"
+  },
+  {
+    "id": 4,
+    "full_name": "Mohamed Bangura",
+    "email": "student@limkokwing.edu.sl",
+    "password": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b",
+    "role": "student",
+    "student_id": "LK2026-001",
+    "created_at": "2026-03-05 10:00"
+  },
+  {
+    "id": 5,
+    "full_name": "Aminata Bah",
+    "email": "aminata@limkokwing.edu.sl",
+    "password": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b",
+    "role": "student",
+    "student_id": "LK2026-002",
+    "created_at": "2026-03-05 10:00"
+  },
+  {
+    "id": 6,
+    "full_name": "Ibrahim Sankoh",
+    "email": "ibrahim@limkokwing.edu.sl",
+    "password": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b",
+    "role": "student",
+    "student_id": "LK2026-003",
+    "created_at": "2026-03-06 11:00"
+  }
+]
