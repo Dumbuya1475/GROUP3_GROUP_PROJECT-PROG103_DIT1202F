@@ -61,5 +61,23 @@
     "role": "student",
     "student_id": "905006382",
     "created_at": "2026-06-21 09:17"
+  },
+  {
+    "id": 8,
+    "full_name": "Rebecca Finda Boima",
+    "email": "finda@gmail.com",
+    "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "role": "student",
+    "student_id": "1234",
+    "created_at": "2026-06-22 11:33"
+  },
+  {
+    "id": 9,
+    "full_name": "Rebecca F boima",
+    "email": "rebeccafindaboima6@gmail.com",
+    "password": "a3a4a9a84b1bb397334082f5805bad02430aeae92c9647598e2115c2513f0833",
+    "role": "student",
+    "student_id": "905006124",
+    "created_at": "2026-06-22 13:47"
   }
 ]

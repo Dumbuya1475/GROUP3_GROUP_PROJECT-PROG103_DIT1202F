@@ -9,8 +9,6 @@ Allows three roles to interact with a shared academic record system:
     - Admin    : manages courses, lecturers, and students
     - Lecturer : enters and updates grades for assigned courses
     - Student  : registers for courses and views grades / GPA
-
-Author: [Your Group Name]
 Institution: Limkokwing University of Creative Technology, Sierra Leone
 """
 

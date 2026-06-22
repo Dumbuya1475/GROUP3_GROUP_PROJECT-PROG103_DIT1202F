@@ -49,7 +49,7 @@ class LecturerDashboard(tk.Frame):
         nav_btns = tk.Frame(nav, bg=WHITE)
         nav_btns.pack(side="left", padx=20)
         self._nav_btn(nav_btns, "🏠 Dashboard",  self._show_dashboard, active=True)
-        self._nav_btn(nav_btns, "📚 My Courses", self._show_courses)
+        self._nav_btn(nav_btns, "📚 My Modules", self._show_courses)
 
         right = tk.Frame(nav, bg=WHITE)
         right.pack(side="right", padx=PAD)
@@ -86,7 +86,7 @@ class LecturerDashboard(tk.Frame):
 
         tk.Label(container, text="Lecturer Dashboard", font=FONT_HEADING1,
                  bg=BG_MAIN, fg=TEXT_DARK).pack(anchor="w")
-        tk.Label(container, text="Manage your courses and student grades",
+        tk.Label(container, text="Manage your modules and student grades",
                  font=FONT_BODY, bg=BG_MAIN, fg=DARK_GRAY).pack(anchor="w", pady=(4, PAD))
 
         my_courses = get_all_courses(lecturer_id=self.user["id"])

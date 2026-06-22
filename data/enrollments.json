@@ -76,5 +76,35 @@
     "student_id": 7,
     "course_id": 5,
     "enrolled_at": "2026-06-21 09:17"
+  },
+  {
+    "id": 14,
+    "student_id": 8,
+    "course_id": 1,
+    "enrolled_at": "2026-06-22 11:33"
+  },
+  {
+    "id": 15,
+    "student_id": 8,
+    "course_id": 6,
+    "enrolled_at": "2026-06-22 11:35"
+  },
+  {
+    "id": 16,
+    "student_id": 4,
+    "course_id": 4,
+    "enrolled_at": "2026-06-22 13:40"
+  },
+  {
+    "id": 17,
+    "student_id": 4,
+    "course_id": 6,
+    "enrolled_at": "2026-06-22 13:42"
+  },
+  {
+    "id": 18,
+    "student_id": 9,
+    "course_id": 1,
+    "enrolled_at": "2026-06-22 14:01"
   }
 ]

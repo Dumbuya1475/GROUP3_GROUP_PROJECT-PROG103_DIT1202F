@@ -18,7 +18,7 @@ class AdminDashboard(tk.Frame):
     """
     Admin dashboard with:
     - Stat cards: total courses, students, lecturers, enrollments
-    - Manage Courses tab — create / delete courses
+    - Manage Modules tab — create / delete courses
     - Manage Users tab — view / create / delete lecturer & student accounts
     """
 
@@ -50,7 +50,7 @@ class AdminDashboard(tk.Frame):
         nav_btns = tk.Frame(nav, bg=WHITE)
         nav_btns.pack(side="left", padx=20)
         self._nav_btn(nav_btns, "🏠 Dashboard",       self._show_dashboard, active=True)
-        self._nav_btn(nav_btns, "📚 Manage Courses",  self._show_courses)
+        self._nav_btn(nav_btns, "📚 Manage Modules",  self._show_courses)
         self._nav_btn(nav_btns, "👥 Manage Users",    self._show_users)
 
         right = tk.Frame(nav, bg=WHITE)
@@ -99,7 +99,7 @@ class AdminDashboard(tk.Frame):
         row = tk.Frame(container, bg=BG_MAIN)
         row.pack(fill="x", pady=(0, PAD))
         stat_data = [
-            ("📚", len(all_courses),   "Total Courses",      NAVY),
+            ("📚", len(all_courses),   "Total Modules",      NAVY),
             ("🧑‍🎓", len(all_students), "Total Students",     BLUE),
             ("👨‍🏫", len(all_lecturers),"Total Lecturers",    GOLD),
             ("📝", len(all_enrolls),   "Total Enrollments",  SUCCESS),
@@ -116,14 +116,14 @@ class AdminDashboard(tk.Frame):
         right.pack(side="right", fill="y")
         right.pack_propagate(False)
 
-        make_section_header(left, "All Courses", "Manage", self._show_courses)
+        make_section_header(left, "All Modules", "Manage", self._show_courses)
         for course in all_courses[:5]:
             self._build_course_row(left, course)
 
         make_section_header(right, "Quick Actions")
         qa = tk.Frame(right, bg=WHITE, highlightbackground=LIGHT_GRAY, highlightthickness=1)
         qa.pack(fill="x")
-        make_button(qa, "+ Create New Course", self._show_create_course,
+        make_button(qa, "+ Create New Module", self._show_create_course,
                     style="primary").pack(fill="x", padx=PAD, pady=(PAD, PAD_SM))
         make_button(qa, "+ Create Lecturer Account", self._show_create_user,
                     style="outline").pack(fill="x", padx=PAD, pady=(0, PAD))
@@ -149,7 +149,7 @@ class AdminDashboard(tk.Frame):
         enrolled = len(get_enrollments(course_id=course["id"]))
         make_badge(row, f"{enrolled}/{course['capacity']}", NAVY).pack(side="right")
 
-    # ─── MANAGE COURSES ───────────────────────────────────────────────
+    # ─── MANAGE MODULES ───────────────────────────────────────────────
     def _show_courses(self):
         self._clear_body()
         scroll_outer, scroll_inner = make_scrollable_frame(self.body)
@@ -158,15 +158,15 @@ class AdminDashboard(tk.Frame):
         container = tk.Frame(scroll_inner, bg=BG_MAIN, padx=PAD*2, pady=PAD)
         container.pack(fill="both", expand=True)
 
-        tk.Label(container, text="Manage Courses", font=FONT_HEADING1,
+        tk.Label(container, text="Manage Modules", font=FONT_HEADING1,
                  bg=BG_MAIN, fg=TEXT_DARK).pack(anchor="w")
 
-        make_button(container, "+ Create New Course", self._show_create_course,
+        make_button(container, "+ Create New Module", self._show_create_course,
                     style="primary").pack(anchor="w", pady=PAD)
 
         all_courses = get_all_courses()
         if not all_courses:
-            tk.Label(container, text="No courses created yet.",
+            tk.Label(container, text="No modules created yet.",
                      font=FONT_BODY, bg=BG_MAIN, fg=DARK_GRAY).pack(pady=20)
         else:
             for course in all_courses:
@@ -176,7 +176,7 @@ class AdminDashboard(tk.Frame):
                     style="ghost").pack(anchor="w", pady=PAD)
 
     def _build_full_course_card(self, parent, course):
-        """Course card with delete action for the management view."""
+        """Module card with delete action for the management view."""
         card = tk.Frame(parent, bg=WHITE, highlightbackground=LIGHT_GRAY, highlightthickness=1)
         card.pack(fill="x", pady=6)
 

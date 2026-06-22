@@ -43,5 +43,23 @@
     "lecturer_id": 2,
     "capacity": 40,
     "created_at": "2026-06-21 08:38"
+  },
+  {
+    "id": 6,
+    "code": "CORE",
+    "title": "New Course",
+    "credit_hours": 3,
+    "lecturer_id": 3,
+    "capacity": 30,
+    "created_at": "2026-06-22 11:35"
+  },
+  {
+    "id": 7,
+    "code": "ATH106",
+    "title": "Math",
+    "credit_hours": 3,
+    "lecturer_id": 2,
+    "capacity": 10,
+    "created_at": "2026-06-22 18:41"
   }
 ]

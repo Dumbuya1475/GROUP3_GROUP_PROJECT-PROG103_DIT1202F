@@ -51,8 +51,8 @@ class StudentDashboard(tk.Frame):
         nav_btns = tk.Frame(nav, bg=WHITE)
         nav_btns.pack(side="left", padx=20)
         self._nav_btn(nav_btns, "🏠 Dashboard",        self._show_dashboard, active=True)
-        self._nav_btn(nav_btns, "📚 Available Courses", self._show_available_courses)
-        self._nav_btn(nav_btns, "📖 My Courses",        self._show_my_courses)
+        self._nav_btn(nav_btns, "📚 Available Modules", self._show_available_courses)
+        self._nav_btn(nav_btns, "📖 My Modules",        self._show_my_courses)
         self._nav_btn(nav_btns, "📊 My Grades",         self._show_grades)
 
         right = tk.Frame(nav, bg=WHITE)
