@@ -1,8 +1,8 @@
 # StudyTrack — Student Academic Portal
 
 **PROG103: Principles of Structured Programming**
-**Limkokwing University of Creative Technology — Sierra Leone**
-**Final Group Project | Semester 02 | March–July 2026**
+**Limkokwing University of Creative Technology Sierra Leone**
+**Final Group Project | Semester 02 | June 2026**
 
 ---
 
