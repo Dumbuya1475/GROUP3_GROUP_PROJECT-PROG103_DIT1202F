@@ -2,7 +2,7 @@
 theme.py - StudyTrack visual theme constants
 Academic-feeling palette: deep navy, gold accent, clean whites.
 """
-  
+
 # ─────────────────────────────────────────────
 # COLOUR PALETTE
 # ─────────────────────────────────────────────

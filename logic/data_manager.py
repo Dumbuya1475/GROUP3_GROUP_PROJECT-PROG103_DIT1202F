@@ -442,7 +442,21 @@ def seed_demo_data() -> None:
     demo_enrollments = [
         {"id": 1,  "student_id": 4, "course_id": 1, "enrolled_at": "2026-03-10 09:00"},
         {"id": 2,  "student_id": 4, "course_id": 2, "enrolled_at": "2026-03-10 09:00"},
-        # Add data
+        {"id": 3,  "student_id": 4, "course_id": 3, "enrolled_at": "2026-03-10 09:00"},
+        {"id": 4,  "student_id": 5, "course_id": 1, "enrolled_at": "2026-03-11 10:00"},
+        {"id": 5,  "student_id": 5, "course_id": 4, "enrolled_at": "2026-03-11 10:00"},
+        {"id": 6,  "student_id": 6, "course_id": 1, "enrolled_at": "2026-03-12 08:00"},
+        {"id": 7,  "student_id": 6, "course_id": 2, "enrolled_at": "2026-03-12 08:00"},
+        {"id": 8,  "student_id": 6, "course_id": 3, "enrolled_at": "2026-03-12 08:00"},
+        {"id": 9,  "student_id": 7, "course_id": 1, "enrolled_at": "2026-03-13 09:00"},
+        {"id": 10, "student_id": 7, "course_id": 2, "enrolled_at": "2026-03-13 09:00"},
+        {"id": 11, "student_id": 7, "course_id": 4, "enrolled_at": "2026-03-13 09:00"},
+        {"id": 12, "student_id": 8, "course_id": 1, "enrolled_at": "2026-03-14 10:00"},
+        {"id": 13, "student_id": 8, "course_id": 3, "enrolled_at": "2026-03-14 10:00"},
+        {"id": 14, "student_id": 9, "course_id": 1, "enrolled_at": "2026-03-15 11:00"},
+        {"id": 15, "student_id": 9, "course_id": 2, "enrolled_at": "2026-03-15 11:00"},
+        {"id": 16, "student_id": 9, "course_id": 3, "enrolled_at": "2026-03-15 11:00"},
+        {"id": 17, "student_id": 9, "course_id": 4, "enrolled_at": "2026-03-15 11:00"},
     ]
     save_json(ENROLLS_FILE, demo_enrollments)
 
