@@ -52,5 +52,14 @@
     "role": "student",
     "student_id": "LK2026-003",
     "created_at": "2026-03-06 11:00"
+  },
+  {
+    "id": 7,
+    "full_name": "Mohamed Super Dumbuya",
+    "email": "dumbuya366@gmail.com",
+    "password": "08fa86965730a38577a6ddc9917cb71c3be41624ae556d14644014af3cfed195",
+    "role": "student",
+    "student_id": "905006382",
+    "created_at": "2026-06-21 09:17"
   }
 ]
