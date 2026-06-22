@@ -149,11 +149,9 @@ MIT License — see `LICENSE` file.
 
 | Name | Contribution |
 |------|--------------|
-| [Member 1] | Project Lead / Data Layer |
-| [Member 2] | Auth Screens / GUI Design |
-| [Member 3] | Student & Lecturer Dashboards |
-| [Member 4] | Admin Dashboard / Testing |
-| [Member 5] | Documentation / GitHub Submission |
+| [Albert Bashiru Deen] | Project Lead / Data Layer |
+| [Rebecca Finda Boima] | Auth Screens / GUI Design |
+| [Mohamed Super Dumbuya] | Student & Lecturer Dashboards |
 
 ---
 
